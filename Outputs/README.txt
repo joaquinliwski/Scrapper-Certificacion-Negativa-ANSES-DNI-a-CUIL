@@ -1,0 +1,1 @@
+Aca debe ir el archivo con DNIs y sexo. Apareceran tambien el .csv con los CUILS unico, y todos los demas ya divididos en n. 
