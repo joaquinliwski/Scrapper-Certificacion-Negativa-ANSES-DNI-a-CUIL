@@ -1,0 +1,30 @@
+nom: str Apellido y nombre
+cuil: Cuil, a veces separado con - a veces no, depende de certificacion y como lo reporta anses
+dni: int DNI
+pre: primeros dos numeros del cuil
+fin: ultimo digito de cuil, verificacion
+cert: str con resultado de certificacion negativa
+obs: str con toda la innformacion que sale
+initialmonth: Mes desde el cual se scrapea. 
+initialyear: Año desde el cual cual se scrapea. 
+endmonth: Mes hasta el cual cual se scrapea. 
+endyear: Año hasta el cual cual se scrapea. 
+certificacion: Variable dummy indicando si es posible emitir certificacion negativa (1 si es verdadero, 0 si es falso)
+obrasocial: Variable dummy indicando si la observación contiene "Obra Social" (1 si es verdadero, 0 si es falso)
+trabajadorenactividad: Variable dummy indicando si la observación contiene "Declaraciones Juradas como Trabajador en Actividad" (1 si es verdadero, 0 si es falso)
+asignacionesfamiliares: Variable dummy indicando si la observación contiene "Asignaciones Familiares" (1 si es verdadero, 0 si es falso)
+ddjjprovnocipa: Variable dummy indicando si la observación contiene "Declaraciones Juradas de Provincia no adherida al SIPA" (1 si es verdadero, 0 si es falso)
+autonomomonotributista: Variable dummy indicando si la observación contiene "Autónomo o Monotributista" (1 si es verdadero, 0 si es falso)
+casaparticular: Variable dummy indicando si la observación contiene "Trabajador/a de Casas Particulares" (1 si es verdadero, 0 si es falso)
+casaparticularmaternidad: Variable dummy indicando si la observación contiene "Asignación por Maternidad para Trabajadora de Casas Particulares" (1 si es verdadero, 0 si es falso)
+prestaciondesempleo: Variable dummy indicando si la observación contiene "Prestación por Desempleo" (1 si es verdadero, 0 si es falso)
+plansocial: Variable dummy indicando si la observación contiene "Plan Social, Ingreso Familiar de Emergencia o Programa de Empleo" (1 si es verdadero, 0 si es falso)
+prestacionprevisional: Variable dummy indicando si la observación contiene "Prestación Previsional." (1 si es verdadero, 0 si es falso)
+prestacionprevisionalnosipa: Variable dummy indicando si la observación contiene "Prestación Previsional de Provincia no adherida al SIPA" (1 si es verdadero, 0 si es falso)
+iniciacionprevisional: Variable dummy indicando si la observación contiene "Iniciación de Prestación Previsional Nacional" (1 si es verdadero, 0 si es falso)
+asignacionmadres: Variable dummy indicando si la observación contiene "Asignación Familiar Jubilados y Pensionados - Madre" (1 si es verdadero, 0 si es falso)
+PROGRESAR: Variable dummy indicando si la observación contiene "PROG.R.ES.AR" (1 si es verdadero, 0 si es falso)
+monotributistasocial: Variable dummy indicando si la observación contiene "Ministerio de Desarrollo Social como Monotributista Social" (1 si es verdadero, 0 si es falso)
+pensionnocontributiva: Variable dummy indicando si la observación contiene "Registra Pensión NO Contributiva otorgada por el Ministerio de Desarrollo Social" (1 si es verdadero, 0 si es falso)
+iniciacionpensionnocontributiva: Variable dummy indicando si la observación contiene "Registra Iniciación de Pensión NO Contributiva otorgada por el Ministerio de Desarrollo Social" (1 si es verdadero, 0 si es falso)
+auhembarazo: Variable dummy indicando si la observación contiene "Asignación Universal por Hijo" (1 si es verdadero, 0 si es falso)
